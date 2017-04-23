@@ -45,6 +45,13 @@ GithubCommand
 
 	STEP.1 创造一个新项目new repo
 	
-	STEP.2 
+	STEP.2 根据下面的提示进行操作
+	
+	第一次推送：git push -u origin master
+	之后的推送：git push origin master
+	
+从远程库克隆
+		
+	git clone https://github.com/[reponame] [本地目录]
 	
 	

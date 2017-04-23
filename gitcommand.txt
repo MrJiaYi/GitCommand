@@ -1,0 +1,50 @@
+GitCommand
+
+	git init
+	#初始化git仓库#
+	
+	git add <filename>
+	#添加文件到仓库，可以添加多个文件#
+	
+	git commit -m “info”
+	#提交文件到仓库#
+	
+	git status
+	#查看工作区状态#
+	
+	git log
+	#查看工作日志#
+	git log --pretty=oneline
+	#查看工作日志-简化单行版#
+	
+	git reflog
+	#查看命令历史#
+	
+	git checkout -- filename
+	#丢弃工作区的修改（没有add）#
+	
+	git reset HEAD filename 
+	#被添加到暂存区（已经add过）丢弃修改，也就是直接返回上一条，可以继续实用checkout继续撤销#
+	
+	git reset --hard commit_id
+	#已经commit，回退到之前版本，需要版本id，查看id用gitlog或者git reflog#
+
+	git rm filename
+	#删除文件#
+	
+GithubCommand
+	
+	STEP.1创建SSH KEY
+	shh-kegken -t rsa -C"youemail@xx.com"
+	
+	STEP.2目录中寻找id_rsa（私匙）和id_rsa.pub（公匙）文件
+	
+	STEP.3github--setting--SSHKEY输入KEY（公匙）
+	
+添加远程库
+
+	STEP.1 创造一个新项目new repo
+	
+	STEP.2 
+	
+	

@@ -85,3 +85,12 @@ GithubCommand
 	
 	git merge --no-ff -m"info" <branchname>
 	#普通方式合并，合并后的历史有分支，能看出来做过合并#
+	
+	git stash
+	#保存现有工作场景（切换另一个分支去工作）#
+	
+	git stash pop
+	#恢复到现有场景#
+	
+	git stash list
+	#查看stash内容#

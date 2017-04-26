@@ -94,3 +94,17 @@ GithubCommand
 	
 	git stash list
 	#查看stash内容#
+	
+	git remote -v
+	#查看远程库信息#
+	
+	git push origin branchname
+	#（先建立一个分支），将分支推送到github，（用该分支作为合作的branch）#
+	
+	#合作者在branch下进行工作,建议采用相同分支名称#
+	
+	git checkout -b branchname origin/branchname
+	#建立匹配本地与远程分支联系#
+	
+	git pull
+	#抓取远程分支内容，合并，如有冲突需要自行处理冲突#

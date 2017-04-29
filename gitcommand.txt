@@ -108,3 +108,17 @@ GithubCommand
 	
 	git pull
 	#抓取远程分支内容，合并，如有冲突需要自行处理冲突#
+	
+Tag
+
+	git tag tagname
+	#创建一个标签#
+	
+	git tag tagname 版本号
+	#给该版本一个tag#
+	
+	git tag -a tagname -m “tag说明” 版本号
+	#给该版本一个tag和tag说明#
+	
+	git tag
+	#查看标签#
